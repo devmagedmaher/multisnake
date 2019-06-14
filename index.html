@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>snake game</title>
+	<style type="text/css">
+		body{
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		}
+		#data{
+		  display: block;
+		  border-bottom: 4px solid #901;
+		  background-color: #222;
+		}
+
+		#canvas {
+		  background-color: #111;
+		}</style>
+</head>
+<bod>
+
+	<div id="players">
+		<button id="1">1 player</button>
+		<button id="2">2 player</button>
+		<button id="3">3 player</button>
+		<button id="4">4 player</button>
+	</div>
+
+	<canvas id="canvas" width="720" height="720"></canvas>
+	<script src="game.js"></script>
+
+	<div id='instructions'>
+		instructions:-
+		<p style="color: #00bb00">player 1: arrows keys => up, left, down and right</p>
+		<p style="color: #0000bb">player 2: wasd keys => w, a, s and d</p>
+		<p style="color: #bbbb00">player 3: uhjk keys => u, h, j and k</p>
+		<p style="color: #bb00bb">player 4: numpad keys => 5, 1, 2, 3</p>
+	</div>
+</bod>
+</html>
